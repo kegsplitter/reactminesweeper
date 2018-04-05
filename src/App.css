@@ -1,0 +1,25 @@
+.board {
+  display: block;
+}
+
+.board .row {
+  display: flex;
+  width: 100%;
+}
+.board .row .cell {
+  display: flex;
+  width: 2em;
+  height: 2em;
+  border: 1px solid green;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.board .row .cell.mine {
+  background-color: red;
+}
+
+.board .row .cell.blank {
+  background-color:#87CEFA;
+}
